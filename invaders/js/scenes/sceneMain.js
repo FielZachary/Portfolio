@@ -200,7 +200,7 @@ class SceneMain extends Phaser.Scene {
         this.timedEvent[i] = this.time.addEvent({ delay: 500, callback: this.enemiesG2[i].checkTask, callbackScope: this.enemiesG2[i], loop: true })
        
         }
-        this.timedEvent2 = this.time.addEvent({ delay: 100, callback: this.LoR, callbackScope: this, loop: true })
+        this.timedEvent2 = this.time.addEvent({ delay: 500, callback: this.LoR, callbackScope: this, loop: true })
         // this.timedEvent3 = this.time.addEvent({ delay: 500, callback: this.enemy1.checkTask, callbackScope: this.enemy1, loop: true })
         // this.timedEvent4 = this.time.addEvent({ delay: 500, callback: this.enemy3.moveEnemy, callbackScope: this.enemy3, loop: true })
         // this.timedEvent5 = this.time.addEvent({ delay: 500, callback: this.enemy2.moveEnemy, callbackScope: this.enemy2, loop: true })
