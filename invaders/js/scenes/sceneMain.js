@@ -106,6 +106,7 @@ class SceneMain extends Phaser.Scene {
         //this.uiGrid.placeAtIndex(354, this.text5)
         console.log('aslkfjjfjfaj;dj;fja ' + this.text4.x)
         // this.title = this.add.image(game.config.width/2, 150, 'GOI2')
+        
 
 
         this.text1.x = 80
@@ -186,6 +187,8 @@ class SceneMain extends Phaser.Scene {
         this.timedEvent2 = []
 
         this.defineEG()
+
+        //console.log('al;skhf ehk;ak;3HFOKHOw3hdfHJpoHQEOPT8GiohJKHKL;HFKwhf;h')
 
 
 
