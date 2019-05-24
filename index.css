@@ -14,8 +14,8 @@ body{
 }
 
 #loading {
-    width: 10vw;
-    height: 10vh;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     background: var(--bg-color);
     z-index: 999;
