@@ -28,10 +28,10 @@ class SceneTitle extends Phaser.Scene {
 
         emitter.on("start_game", this.startGame, this)
 
-        this.text1 = this.add.text(0, 0, 'To Shoot - Hold And Release Left Click')
+        this.text1 = this.add.text(0, 0, 'To Switch - Left Clik-')
         this.alignGrid.placeAtIndex(99, this.text1)
-        this.text2 = this.add.text(0, 0, 'To Move - Left Click where you want to go to')
-        this.alignGrid.placeAtIndex(110, this.text2)
+        // this.text2 = this.add.text(0, 0, 'To Move - Left Click where you want to go to')
+        // this.alignGrid.placeAtIndex(110, this.text2)
     }
 
     startGame()
