@@ -24,7 +24,7 @@ class SceneLoad extends Phaser.Scene {
     this.load.image("musicOn", 'images/ui/icons/music_on.png')
     this.load.image("musicOff", 'images/ui/icons/music_off.png')
 
-    this.load.image('player', 'images/player.png')
+    this.load.image('player', 'images/Player.png')
     this.load.image('GOI', 'images/GAME-OVER.png')
     this.load.image('GOI2', 'images/GAME-OVER2.png')
     this.load.image('0', 'images/0.png')
