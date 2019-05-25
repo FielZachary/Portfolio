@@ -294,7 +294,7 @@ class SceneMain extends Phaser.Scene {
             var ty = this.background.input.localY * this.background.scaleY
             this.tx = tx
             this.ty = ty
-            var angle = this.physics.moveTo(this.ship, tx, ty, 60);
+            var angle = this.physics.moveTo(this.ship, tx, ty, 70);
             angle = this.toDegrees(angle)
             this.ship.angle = angle
             //
