@@ -18,7 +18,7 @@ class SceneTitle extends Phaser.Scene {
 
         var title = this.add.image(0, 0, "title")
         Align.scaleToGameW(title, .8)
-        this.alignGrid.placeAtIndex(27, title)
+        //this.alignGrid.placeAtIndex(27, title)
 
         var ship = this.add.image(0, 0, 'ship')
         this.alignGrid.placeAtIndex(60, ship)
