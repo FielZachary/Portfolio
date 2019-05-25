@@ -23,6 +23,9 @@ class SceneTitle extends Phaser.Scene {
         this.alignGrid.placeAtIndex(93, btnStart)
 
         emitter.on("start_game", this.startGame, this)
+
+        this.text1 = this.add.text(0, 0, 'To Change Paddle Color - Left Click')
+        this.alignGrid.placeAtIndex(99, this.text1)
         
 
         //this.scene.start("SceneMain")   
