@@ -25,6 +25,8 @@ class SceneTitle extends Phaser.Scene {
         Align.scaleToGameW(ship, .125)
         ship.angle = 270
         this.text1 = this.add.text(0, 0, 'To Shoot - Hold Left Click And release')
+        this.text1.placeAtIndex(55, this.text1)
+        Align.scaleToGameW(this.text1, .5)
 
         var btnStart = new FlatButton({scene:this, key:"button1", text:"Start!", x:240, y:100, event:"start_game"}) 
         this.alignGrid.placeAtIndex(93, btnStart)
