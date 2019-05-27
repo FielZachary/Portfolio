@@ -28,8 +28,8 @@ class SceneTitle extends Phaser.Scene {
         this.alignGrid.placeAtIndex(99, this.text1)
         this.text2 = this.add.text(0, 0, 'The objective of the game is to defeat the enemy ship, you as the player and the enemy ship have 100 shields')
         //this.alignGrid.placeAtIndex(110, this.text2)
-        this.text2.x = 225
-        console.log('text 1 x is ' + this.text1.x)
+        this.text2.x = 25
+        console.log('text 1 x is ' + this.text1.y)
         //Align.scaleToGameW(this.text1, .5)
 
         var btnStart = new FlatButton({scene:this, key:"button1", text:"Start!", x:240, y:100, event:"start_game"}) 
