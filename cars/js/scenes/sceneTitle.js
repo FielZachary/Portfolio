@@ -28,10 +28,16 @@ class SceneTitle extends Phaser.Scene {
 
         emitter.on("start_game", this.startGame, this)
 
-        this.text1 = this.add.text(0, 0, 'To Switch - Left Click-')
-        this.alignGrid.placeAtIndex(99, this.text1)
-        // this.text2 = this.add.text(0, 0, 'To Move - Left Click where you want to go to')
-        // this.alignGrid.placeAtIndex(110, this.text2)
+        this.text1 = this.add.text(12, 0, 'Instructions:')
+        this.text1.y = 541
+        this.text2 = this.add.text(0, 0, 'The objective is to match the ball color')
+        this.text3 = this.add.text(this.text1.x, 575, 'to the paddle color and survive as long as possible.')
+        this.text4 = this.add.text(this.text1.x, 592, 'Controls:')
+        this.text5 = this.add.text(this.text1.x, 609, 'Click to change the paddle color')
+        this.text6 = this.add.text(this.text1.x, 626, 'Test')
+        //this.alignGrid.placeAtIndex(110, this.text2)
+        this.text2.y = 560
+        this.text2.x = this.text1.x
     }
 
     startGame()
