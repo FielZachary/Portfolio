@@ -24,9 +24,9 @@ class SceneTitle extends Phaser.Scene {
         this.alignGrid.placeAtIndex(60, ship)
         Align.scaleToGameW(ship, .125)
         ship.angle = 270
-        this.text1 = this.add.text(0, 0, 'To Shoot - Hold And Release Left Click')
+        this.text1 = this.add.text(0, 0, 'Keybinds:')
         this.alignGrid.placeAtIndex(99, this.text1)
-        this.text2 = this.add.text(0, 0, 'To Move - Left Click where you want to go to')
+        this.text2 = this.add.text(0, 0, 'Use your mouse to navigate through the map and Long press and release your left mouse button to shoot')
         this.alignGrid.placeAtIndex(110, this.text2)
         //Align.scaleToGameW(this.text1, .5)
 
