@@ -15,9 +15,13 @@ class SceneTitle extends Phaser.Scene {
         this.alignGrid = new AlignGrid({rows: 11, cols:11, scene:this})
         this.alignGrid.showNumbers()
 
-        var title = this.add.image(0, 0, "SPACETEXT")
+        var title = this.add.image(0, 0, "SIT")
+        var title2 = this.add.image(0, 0, "SIT2")
         Align.scaleToGameW(title, .8)
+        Align.scaleToGameW(title2, .8)
         this.alignGrid.placeAtIndex(38, title)
+        this.alignGrid.placeAtIndex(49, title2)
+
 
         var btnStart = new FlatButton({scene:this, key:"button1", text:"Start!", x:240, y:100, event:"start_game"}) 
         this.alignGrid.placeAtIndex(93, btnStart)
