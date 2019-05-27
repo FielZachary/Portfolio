@@ -29,11 +29,7 @@ class SceneTitle extends Phaser.Scene {
         //this.scene.start('SceneMain')
     }
 
-    startGame()
-    {
-        this.scene.start("SceneMain")
-    }
-
+    
     //
 
 
