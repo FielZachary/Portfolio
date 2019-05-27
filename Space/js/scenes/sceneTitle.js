@@ -28,7 +28,8 @@ class SceneTitle extends Phaser.Scene {
         this.alignGrid.placeAtIndex(99, this.text1)
         this.text2 = this.add.text(0, 0, 'The objective of the game is to defeat the enemy ship')
         //this.alignGrid.placeAtIndex(110, this.text2)
-        this.text2.y = 560
+        this.text2.y = 570
+        this.text2.x = this.text1.x
         console.log('text 1 y is ' + this.text1.y)
         console.log('text 2 y is ' + this.text2.y)
         //Align.scaleToGameW(this.text1, .5)
