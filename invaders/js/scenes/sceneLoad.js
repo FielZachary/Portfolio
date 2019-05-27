@@ -28,7 +28,7 @@ class SceneLoad extends Phaser.Scene {
     this.load.image('GOI', 'images/GAME-OVER.png')
     this.load.image('GOI2', 'images/GAME-OVER2.png')
     this.load.image('SIT', 'images/SPACETEXT')
-    this.load.image('SIT', 'images/SPACETEXT2')
+    this.load.image('SIT2', 'images/SPACETEXT2')
     this.load.image('0', 'images/0.png')
     this.load.image('05000', 'images/0500.png')
     this.load.image('CREDIT', 'images/CREDIT.png')
