@@ -13,9 +13,9 @@ class SceneTitle extends Phaser.Scene {
         controller = new Controller()
 
         this.alignGrid = new AlignGrid({rows: 11, cols:11, scene:this})
-        //this.alignGrid.showNumbers()
+        this.alignGrid.showNumbers()
 
-        var title = this.add.image(0, 0, "title")
+        var title = this.add.image(0, 0, "SPACETEXT")
         Align.scaleToGameW(title, .8)
         this.alignGrid.placeAtIndex(38, title)
 
@@ -26,7 +26,7 @@ class SceneTitle extends Phaser.Scene {
 
         emitter.on("start_game", this.startGame, this)
 
-        this.scene.start('SceneMain')
+        //this.scene.start('SceneMain')
     }
 
     startGame()
