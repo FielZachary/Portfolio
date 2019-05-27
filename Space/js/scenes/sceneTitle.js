@@ -26,7 +26,11 @@ class SceneTitle extends Phaser.Scene {
         ship.angle = 270
         this.text1 = this.add.text(0, 0, 'Instructions:')
         this.alignGrid.placeAtIndex(99, this.text1)
-        this.text2 = this.add.text(0, 0, 'The objective of the game is to defeat the enemy ship')
+        this.text2 = this.add.text(0, 0, 'The objective of the game is to defeat the enemy')
+        this.text3 = this.add.text(587, this.text1.x, 'ship.')
+        this.text4 = this.add.text(604, this.text1.x, 'Controls:')
+        this.text5 = this.add.text(621, this.text1.x, 'Use your mouse to navigate through the map')
+        this.text6 = this.add.text(621, this.text1.x, 'Then hold and release left click to shoot')
         //this.alignGrid.placeAtIndex(110, this.text2)
         this.text2.y = 570
         this.text2.x = this.text1.x
