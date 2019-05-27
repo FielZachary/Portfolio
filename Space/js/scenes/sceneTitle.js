@@ -28,7 +28,7 @@ class SceneTitle extends Phaser.Scene {
         this.alignGrid.placeAtIndex(99, this.text1)
         this.text2 = this.add.text(0, 0, 'Use your mouse to navigate through the map and Long press and release your left mouse button to shoot')
         this.alignGrid.placeAtIndex(110, this.text2)
-        console.log(this.text1.x)
+        console.log('text 1 x is ' + this.text1.x)
         //Align.scaleToGameW(this.text1, .5)
 
         var btnStart = new FlatButton({scene:this, key:"button1", text:"Start!", x:240, y:100, event:"start_game"}) 
