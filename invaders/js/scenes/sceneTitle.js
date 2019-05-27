@@ -24,12 +24,16 @@ class SceneTitle extends Phaser.Scene {
 
         
 
-        //emitter.on("start_game", this.startGame, this)
+        emitter.on("start_game", this.startGame, this)
 
         //this.scene.start('SceneMain')
     }
 
-    
+    startGame()
+    {
+        this.scene.start("SceneMain")
+    }
+
     //
 
 
