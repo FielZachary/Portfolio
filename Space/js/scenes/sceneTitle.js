@@ -24,17 +24,17 @@ class SceneTitle extends Phaser.Scene {
         this.alignGrid.placeAtIndex(60, ship)
         Align.scaleToGameW(ship, .125)
         ship.angle = 270
-        this.text1 = this.add.text(0, 0, 'Instructions:')
-        this.alignGrid.placeAtIndex(99, this.text1)
+        this.text1 = this.add.text(12, 0, 'Instructions:')
+        this.text1.y = 543
         this.text2 = this.add.text(0, 0, 'The objective of the game is to defeat the enemy')
-        this.text3 = this.add.text(this.text1.x, 587, 'ship.')
-        this.text4 = this.add.text(this.text1.x, 604, 'Controls:')
-        this.text5 = this.add.text(this.text1.x, 621, 'Use your mouse to navigate through the map')
-        this.text6 = this.add.text(this.text1.x, 638, 'Then hold and release left click to shoot')
+        this.text3 = this.add.text(this.text1.x, 577, 'ship.')
+        this.text4 = this.add.text(this.text1.x, 594, 'Controls:')
+        this.text5 = this.add.text(this.text1.x, 611, 'Use your mouse to navigate through the map')
+        this.text6 = this.add.text(this.text1.x, 628, 'Then hold and release left click to shoot')
         //this.alignGrid.placeAtIndex(110, this.text2)
-        this.text2.y = 570
+        this.text2.y = 560
         this.text2.x = this.text1.x
-        console.log('text 1 y is ' + this.text1.y)
+        console.log('text 1 y is ' + this.text1.x )
         console.log('text 2 y is ' + this.text2.y)
         //Align.scaleToGameW(this.text1, .5)
 
