@@ -30,7 +30,7 @@ class SceneTitle extends Phaser.Scene {
         this.text3 = this.add.text(this.text1.x, 575, 'to the paddle color and survive as long as possible.')
         this.text4 = this.add.text(this.text1.x, 592, 'Controls:')
         this.text5 = this.add.text(this.text1.x, 609, 'Click to change the paddle color')
-        this.text6 = this.add.text(this.text1.x, 626, 'Test')
+        this.text6 = this.add.text(this.text1.x, 626, 'Hold left click and swipe up to reset the paddles')
         //this.alignGrid.placeAtIndex(110, this.text2)
         this.text2.y = 560
         this.text2.x = this.text1.x

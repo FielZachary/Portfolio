@@ -13,7 +13,7 @@ class SceneTitle extends Phaser.Scene {
         controller = new Controller()
 
         this.alignGrid = new AlignGrid({rows: 11, cols:11, scene:this})
-        this.alignGrid.showNumbers()
+        //this.alignGrid.showNumbers()
 
         var title = this.add.image(0, 0, "SIT")
         var title2 = this.add.image(0, 0, "SIT2")
