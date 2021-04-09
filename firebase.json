@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "target": "zacurry",  
-    "public": "Portfolio",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
