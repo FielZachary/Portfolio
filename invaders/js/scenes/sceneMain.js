@@ -104,7 +104,7 @@ class SceneMain extends Phaser.Scene {
         //this.uiGrid.placeAtIndex(14, this.text3)
         // this.uiGrid.placeAtIndex(340, this.text4)
         //this.uiGrid.placeAtIndex(354, this.text5)
-        console.log('aslkfjjfjfaj;dj;fja ' + this.text4.x)
+        //console.log('aslkfjjfjfaj;dj;fja ' + this.text4.x)
         // this.title = this.add.image(game.config.width/2, 150, 'GOI2')
         
 
