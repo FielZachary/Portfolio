@@ -1,0 +1,51 @@
+[debug] [2021-04-09T08:03:09.980Z] ----------------------------------------------------------------------
+[debug] [2021-04-09T08:03:09.982Z] Command:       D:\node.exe C:\Users\roblo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-09T08:03:09.983Z] CLI Version:   9.9.0
+[debug] [2021-04-09T08:03:09.983Z] Platform:      win32
+[debug] [2021-04-09T08:03:09.983Z] Node Version:  v14.16.0
+[debug] [2021-04-09T08:03:09.984Z] Time:          Fri Apr 09 2021 16:03:09 GMT+0800 (Philippine Standard Time)
+[debug] [2021-04-09T08:03:09.984Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-09T08:03:09.989Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-09T08:03:09.990Z] > authorizing via signed-in user (robloxzacfiel@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\roblo\Portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using zacurry. 
+[debug] [2021-04-09T08:03:13.375Z] > refreshing access token with scopes: []
+[debug] [2021-04-09T08:03:13.376Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-09T08:03:13.706Z] <<< HTTP RESPONSE 200 {"date":"Fri, 09 Apr 2021 08:03:13 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-09T08:03:13.717Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/zacurry [none]
+[debug] [2021-04-09T08:03:14.418Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/zacurry 403
+[debug] [2021-04-09T08:03:14.419Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/zacurry {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-04-09T08:03:14.419Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-04-09T08:03:14.618Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\roblo\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\roblo\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\roblo\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\roblo\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\roblo\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\roblo\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project zacurry. Please make sure the project exists and your account has permission to access it.
